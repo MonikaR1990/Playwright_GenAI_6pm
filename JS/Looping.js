@@ -12,79 +12,122 @@
 
 //1 to 5
 
-for(let i = 1; i<=5; i++)
-{
-   console.log(i) 
-}
+// for(let i = 1; i<=5; i++)
+// {
+//    console.log(i) 
+// }
 
-for(let i = 1; i<=100; i++)
-{
-    console.log("Monika")
-}
+// for(let i = 1; i<=100; i++)
+// {
+//     console.log("Monika")
+// }
 
-for(let i = 2; i<=20; i+=2)
-{
-    console.log(i)
-}
+// for(let i = 2; i<=20; i+=2)
+// {
+//     console.log(i)
+// }
 
-for(let i = 1; i<=20; i+=2)
-{
-    console.log(i)
-}
+// for(let i = 1; i<=20; i+=2)
+// {
+//     console.log(i)
+// }
 
-let sum = 0
+// let sum = 0
 
-for(let i = 1; i<=100; i++)
-{
-    sum += i //sum = sum + i
-}
+// for(let i = 1; i<=100; i++)
+// {
+//     sum += i //sum = sum + i
+// }
 
-console.log(sum)
+// console.log(sum)
 
-//String Reverse ("Angel")
+// //String Reverse ("Angel")
 
-// let str = "Angel"
-// let rev = str.split("").reverse().join()
+// // let str = "Angel"
+// // let rev = str.split("").reverse().join()
+
+// // console.log(rev)
+
+// let str = "Bala"
+// let rev = ""
+
+// for(let i = str.length-1; i>=0; i--)
+// {
+//     rev += str[i]
+// }
 
 // console.log(rev)
 
-let str = "Bala"
-let rev = ""
+// //while loop
 
-for(let i = 3; i>=0; i--)
+// let i = 1
+
+// while(i<=5)
+// {
+//     console.log(i)
+//     i++
+// }
+
+// for(let i = 1; i<=100; i++)
+// {
+//     console.log("Checking Email: " + i)
+// }
+
+
+// const prompt = require("prompt-sync")()
+
+// let pin;
+
+// while(1234!="1234")
+// {
+//     pin = prompt("Enter Pin: ")
+// }
+
+// console.log("Login Successful")
+
+
+let i = 6
+
+do
 {
-    rev += str[i]
+   console.log(i)
+   i++ 
+}while(i<=5)
+
+
+// let i = 6
+
+// while(i<=5)
+// {
+//     console.log(i)
+//     i++
+// }
+
+
+let n = 5
+
+for(let i = 1; i<=10; i++)
+{
+   console.log(i + "X" + n + "=" + (i*n))
 }
 
-console.log(rev)
 
-//while loop
 
-let i = 1
-
-while(i<=5)
+function findEvenOrOdd(number)
 {
-    console.log(i)
-    i++
+   if(number%2===0)
+{
+   console.log("Even Number")
+}
+else
+{
+   console.log("Odd Number")
+}
 }
 
-for(let i = 1; i<=100; i++)
+findEvenOrOdd(8)
+
+function findMax(a, b, c)
 {
-    console.log("Checking Email: " + i)
+   
 }
-
-
-const prompt = require("prompt-sync")()
-
-let pin;
-
-while(1234!="1234")
-{
-    pin = prompt("Enter Pin: ")
-}
-
-console.log("Login Successful")
-
-
-
-
