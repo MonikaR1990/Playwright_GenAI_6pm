@@ -109,5 +109,83 @@ for(let key in employee)
     console.log(employee[key])
 }
 
+//Object
+console.log(Object.keys(employee)) //string[]
 
+console.log(Object.values(employee)) //string[]
+
+console.log(Object.entries(employee)) //string[] two dimensional
+
+let obj1 = {
+    name: "Ratha"
+}
+
+let obj2 = {
+    age: 25
+}
+
+let obj3 = {
+    id: 101
+}
+
+let result = Object.assign({}, obj1, obj2, obj3) //copy or merge objects
+
+console.log(result)
+
+
+let teacher = {
+    name: "Shaji",
+    class: 6,
+    subject: "Maths"
+}
+
+//Object.freeze(teacher)
+
+// teacher.class = 7 //you can't able to modify the property values
+
+// teacher.id = 10001 //can't able to create or delete property
+
+// console.log(teacher)
+
+Object.seal(teacher)
+
+teacher.class = 8 //you can able to modify the property values
+
+teacher.id = 10001 //can't able to create or delete property
+
+console.log(teacher)
+
+/*
+| Feature         | Freeze   | Seal  |
+| --------------- | ------   | ----  |
+| Update existing | ❌      | ✅    |
+| Add property    | ❌      | ❌    |
+| Delete property | ❌      | ❌    |
+
+
+*/
+
+console.log("name" in teacher)
+
+let object1 = {
+    name: "Pavi"
+}
+let object2 = {
+    name: "Pavi"
+}
+
+console.log(object1===object2)
+
+let newEmployee = {
+    name: "Mani",
+    id: 101, 
+    salary: 26000,
+    shift: "Night"
+}
+
+let copyEmployee = {
+    ...newEmployee
+}
+
+console.log(copyEmployee)
 
