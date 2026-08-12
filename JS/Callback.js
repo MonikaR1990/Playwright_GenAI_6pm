@@ -59,5 +59,58 @@ function paymentResult(status, amount)
     }
 }
 
-processPayment(2500, paymentResult)
+//processPayment(2500, paymentResult)
+
+function login(callback)
+{
+    console.log("1. Login Successfull")
+
+    setTimeout(()=>{
+        callback()
+    }, 2000)
+}
+
+function getProfile(callback)
+{
+    console.log("2. Profile Loaded")
+
+    setTimeout(()=>{
+        callback()
+    },2000)
+}
+
+function getOrder(callback)
+{
+    console.log("3. Order Received")
+
+    setTimeout(()=>{
+        callback()
+    },2000)
+}
+
+function makePayment(callback)
+{
+    console.log("3. Payment Successful")
+
+    setTimeout(()=>{
+        callback()
+    },2000)
+}
+function check()
+{
+
+}
+
+//callback hell problem
+
+// login(()=>{
+//     getProfile(()=>{
+//         getOrder(()=>{
+//             makePayment(()=>{
+//                 console.log("5. Process Completed")
+//             })
+//         })
+//     })
+// })
+
 
