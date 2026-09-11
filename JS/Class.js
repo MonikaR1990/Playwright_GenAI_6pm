@@ -51,7 +51,6 @@ class Student
     age = 25
     id = 101
 
-    
     displayDetails()
     {
         console.log("Student Name: " + this.name)

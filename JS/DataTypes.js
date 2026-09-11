@@ -40,7 +40,7 @@ console.log(num)
 
 let id = Symbol("userId")
 
-let name = Symbol("Employee Name")
+//let name = Symbol("Employee Name")
 
 id = 101
 

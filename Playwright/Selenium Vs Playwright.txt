@@ -1,0 +1,35 @@
+Selenium - Manual Wait (20 sec)
+         - Parallel Execution not support directly
+         - Speed slow compare to playwright
+         - Chrome, Firefox, Edge, Safari
+         - It used system's Browser applications
+         - Cross Browser Testing (Manual setup)
+         - It communicate with browser using driver
+         - It use TestNG/Junit Assertion
+         - API Testing (Limited)/ UI Testing only suitable
+         - Java, JavaScript, Python, C#
+         - for close the browser you have to write code (driver.close())
+         - Already created frame works
+
+
+
+
+
+Playwright - Auto Wait (30 sec)
+           - Parallel Execution Default built in
+           - Speed high
+           - Chromium, Firefox, Webkit
+           - Browser application download while install Playwright
+           - Cross Browser Testing Easy
+           - It directly communicate with browser
+           - It use its own assertion (expect)
+           - UI Testing as well as API Testing (API mocking & API Interception)
+           - Java, JavaScript, Python, C#, TypeScript
+	       - once test completed browser will close automatically
+           - Modern Application 
+
+
+
+
+
+

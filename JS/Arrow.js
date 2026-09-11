@@ -7,10 +7,10 @@ let greet = ()=>console.log("Hello")
 greet()
 
 
-let sub = (a, b) => 
-{
-    return (a-b)    //explicit return
-}
+// let sub = (a, b) => 
+// {
+//     return (a-b)    //explicit return
+// }
 
 console.log(sub(6, 4))
 
