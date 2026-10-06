@@ -106,8 +106,4 @@ test('Interactions', async({page})=>{
     await page.mouse.wheel(-500, 0) //Scroll Left
     
 
-
-
-
-
 })
