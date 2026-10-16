@@ -6,6 +6,7 @@
 // as base - gives the imported test object another name "base"
 
 //<> symbols used for typescript generics
+//use is a function provided by playwright's fixture system
 
 import {test as base} from '@playwright/test'
 import { Page } from '@playwright/test'   //Page is interface in playwright
